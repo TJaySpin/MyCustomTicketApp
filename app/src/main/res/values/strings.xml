@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MyTaobaoUnion</string>
+    <string name="text_home">首页</string>
+    <string name="text_selected">精选</string>
+    <string name="text_red_packet">特惠</string>
+    <string name="text_search">搜索</string>
+    <string name="text_network_error_tips">网络错误,请点击重试</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_goods_off_price">省%1$d元</string>
+    <string name="text_goods_origin_price">¥%1$s</string>
+    <string name="text_sells_count">%1$d人已经购买</string>
+    <string name="text_loading_tips">加载中</string>
+    <string name="text_selected_title">精选宝贝</string>
+    <string name="text_selected_origin_price">%1$s元</string>
+    <string name="text_redpackettitle">特惠宝贝</string>
+
+    <item name="about_version_code" type="id"/>
+    <item name="auto_focus" type="id"/>
+    <item name="complete_password" type="id"/>
+    <item name="complete_qrpaword" type="id"/>
+    <item name="complete_zhuce" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="gridview" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="register_phone_edittext" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="split" type="id"/>
+    <item name="webview" type="id"/>
+    <item name="zhuce_title" type="id"/>
+
+    <style name="TickerTextAppearanceCodeTool">
+        <item name="android:textColor">#f0f0f0</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+
+</resources>

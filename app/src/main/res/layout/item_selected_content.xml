@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--这里用cardview作为根布局，相当于一个带阴影和圆角的framelayout，此外，很多属性要用自带的属性设置，不能用android:设置-->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:sob="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    sob:cardElevation="6dp"
+    android:background="@color/white"
+    app:contentPadding="8dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/selected_cover"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/seleced_off_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_tag_bg"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="5dp"
+                android:text="领券省30元"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/selected_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="什么几把玩意什么几把玩意什么几把玩意什么几把玩意"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="7dp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <!--有优惠才能看见这个btn-->
+            <TextView
+                android:id="@+id/selected_buy_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="领券购买"
+                android:textColor="@color/white"
+                android:background="@drawable/shape_tag_bg"
+                android:padding="8dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/selected_original_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="原价：9.9元"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".UI.Activity.TestActivity2"
+    >
+
+    <!--<com.example.mytaobaounion.UI.Custom.LoadingView
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        />-->
+
+    <com.example.mytaobaounion.UI.Custom.TextFlowLayout
+        android:id="@+id/my_TextFlow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:horizontal_space="10dp"
+        app:vertical_space="10dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/drawable/home_et_background.xml" value="0.1625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/drawable/ic_launcher_background.xml" value="0.133" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/drawable/navigation_bar_color.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/drawable/selector_flowtext_bg.xml" value="0.257" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/drawable/shape_indicator_point_normal.xml" value="0.1625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/drawable/shape_indicator_point_selected.xml" value="0.1625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/drawable/shape_tag_bg.xml" value="0.1625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/drawable/shape_textflow_bg.xml" value="0.257" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/drawable/shape_textflow_bg_normal.xml" value="0.257" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/drawable/shape_textflow_bg_press.xml" value="0.257" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/drawable/shape_ticker_button_bg.xml" value="0.262" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/drawable/shape_ticket_code_edit_bg.xml" value="0.262" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/drawable/shape_title_flag.xml" value="0.1625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/activity_scan_code.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/activity_scan_qr.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/activity_scancode.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/activity_test2.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/activity_ticket.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/base_fragment_home.xml" value="0.2557544757033248" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/base_fragment_layout.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/base_home_fragment_layout.xml" value="0.3145780051150895" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/base_search_fragment_layout.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/base_selected_redpacket_fragment_layout.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/fragment_empty.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/fragment_error.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/fragment_home_pager.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/fragment_loading.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/fragment_redpacket.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/fragment_search.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/fragment_selected.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/include_home_pager_title.xml" value="0.30027173913043476" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/include_home_pager_titlt.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/item_home_pager_content.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/item_redpacket_content.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/item_search_result_content.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/item_selected_content.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/item_selected_page_left.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/layout/textview_flowtext.xml" value="0.2515625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTaobaoUnion/app/src/main/res/menu/bottom_menu.xml" value="0.1984375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

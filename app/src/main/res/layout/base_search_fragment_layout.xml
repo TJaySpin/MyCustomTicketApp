@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/cancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="取消"
+            android:textColor="@color/white" />
+
+        <!--指定android:imeOptions，开启键盘搜索功能-->
+        <EditText
+            android:id="@+id/search_et"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toLeftOf="@id/cancelBtn"
+            android:background="@drawable/home_et_background"
+            android:focusable="true"
+            android:hint="想要搜点啥呢"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+        <ImageView
+            android:id="@+id/cancelImg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/remove"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/cancelBtn"
+            android:layout_marginRight="5dp"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/base_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

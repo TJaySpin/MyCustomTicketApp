@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Activity.TicketActivity"
+    android:orientation="vertical"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        >
+
+        <ImageView
+            android:id="@+id/ticket_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/back"
+            android:layout_gravity="center_vertical"
+            android:padding="11dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="淘口令"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/ticket_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="center"
+            android:layout_marginTop="33dp"
+            android:layout_centerInParent="true"
+            />
+
+        <com.example.mytaobaounion.UI.Custom.LoadingView
+            android:id="@+id/ticket_cover_loading"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_centerInParent="true" />
+
+
+        <!--用来显示加载失败时的文字，默认不可见gone-->
+        <TextView
+            android:id="@+id/ticket_load_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载出错"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    
+    <EditText
+        android:id="@+id/ticket_code"
+        android:layout_width="224dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="33dp"
+        android:text="￥xhQoYC66sMX￥"
+        android:background="@drawable/shape_ticket_code_edit_bg"
+        android:textSize="18sp"
+        android:textColor="#4A4A4A"
+        android:focusable="false"
+        />
+
+    <TextView
+        android:id="@+id/ticket_copy_or_open_btn"
+        android:layout_width="141dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="33dp"
+        android:text="复制淘口令"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_ticker_button_bg"
+        />
+
+</LinearLayout>

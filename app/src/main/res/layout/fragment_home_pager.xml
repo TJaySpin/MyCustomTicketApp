@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Fragment.HomePagerFragment"
+    android:background="@color/colorPageBg"
+    android:orientation="vertical"
+    android:id="@+id/home_pager_parent"
+    >
+
+
+    <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+        android:id="@+id/home_pager_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <!--ScrollView是为了能够滑动整个屏幕；
+            此外ScrollView只能有一个子View；
+            注意，由于ScrollView的嵌套，homePagerContentAdapter会一次性创建出所有item数目的viewHolder，失去复用功能，
+        可能是因为RecyclerView设置MATCH_PARENT，设置成确定数值后可以解决，因此这里需要动态设置rv的高度
+        -->
+        <com.lcodecore.tkrefreshlayout.View.TbNestedScrollView
+            android:id="@+id/home_pager_nested_scroller"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:descendantFocusability="blocksDescendants"
+                >
+
+                <LinearLayout
+                    android:id="@+id/home_pager_header_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp">
+
+                        <com.example.mytaobaounion.UI.Custom.AutoLoopViewPager
+                            android:id="@+id/looper_pager"
+                            android:layout_width="match_parent"
+                            android:layout_height="125dp"
+                            android:overScrollMode="never" />
+
+                        <LinearLayout
+                            android:id="@+id/looper_point_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal" />
+
+                    </RelativeLayout>
+
+
+                    <include layout="@layout/include_home_pager_title" />
+
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/home_pager_content_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:overScrollMode="never" />
+
+
+            </LinearLayout>
+
+        </com.lcodecore.tkrefreshlayout.View.TbNestedScrollView>
+
+    </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Activity.MainActivity">
+
+    <!--该FrameLayout为4个Fragment的根布局，专门用来填充4个界面-->
+    <FrameLayout
+        android:id="@+id/home_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="49dp"
+        android:background="#EFEEEE"
+        />
+
+    <!--关键是设置menu-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/main_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@drawable/navigation_bar_color"
+        app:itemTextColor="@drawable/navigation_bar_color"
+        android:background="@color/colorGrey2"
+        app:menu="@menu/bottom_menu" />
+
+</RelativeLayout>
